@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Buscador</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>API Buscador</h1>
+  <div class="controls">
+    <div class="button-container">
+      <button id="load-pokemon-list">Pokémon</button>
+      <button id="load-rick-list">Rick and Morty</button>
+    </div>
+    <input type="text" id="search" placeholder="Buscar" style="display: none;" />
+  </div>
+  <div id="content" class="grid-container"></div>
+  <div id="details"></div>
+  <div id="pagination"></div>
+  <script type="module" src="./app.js"></script>
+</body>
